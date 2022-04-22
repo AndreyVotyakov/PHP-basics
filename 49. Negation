@@ -1,0 +1,12 @@
+<?php
+
+function isPalindrome($str)
+{
+    $lowStr = strtolower($str);
+    return $lowStr === strrev($lowStr);
+}
+
+function isNotPalindrome($str)
+{
+    return !isPalindrome($str);
+}
