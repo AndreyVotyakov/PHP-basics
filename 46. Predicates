@@ -1,0 +1,6 @@
+<?php
+
+function isMister($str)
+{
+    return $str === 'Mister';
+}
