@@ -1,0 +1,9 @@
+<?php
+
+namespace HexletBasics\DefineFunctions\DefaultArguments;
+
+function getHiddenCard($cardNums, $starsCount = 4)
+{
+    $visibleNums = substr($cardNums, 12);
+    return str_repeat('*', $starsCount) . $visibleNums;
+}
