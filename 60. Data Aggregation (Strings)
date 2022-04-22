@@ -1,0 +1,14 @@
+<?php
+
+function joinNumbersFromRange($start, $range)
+{
+    $i = $start;
+    $sum = '';
+
+    while ($i <= $range) {
+        $sum = "{$sum}{$i}";
+        $i = $i + 1;
+    }
+
+    return $sum;
+}
