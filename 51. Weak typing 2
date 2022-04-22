@@ -1,0 +1,6 @@
+<?php
+
+function isFalsy($input)
+{
+    return $input == false;
+}
