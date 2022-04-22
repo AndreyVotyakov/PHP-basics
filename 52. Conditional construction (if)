@@ -1,0 +1,11 @@
+<?php
+
+function guessNumber($number)
+{
+    $winNumber = 42;
+    if ($number === $winNumber){
+        return 'You win!';
+    }
+
+    return 'Try again!';
+}
