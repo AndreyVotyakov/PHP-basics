@@ -1,0 +1,8 @@
+<?php
+
+function isInternationalPhone($phone)
+{
+    $firstDigit = $phone[0];
+    $isPlus = $firstDigit === '+';
+    return $isPlus;
+}
