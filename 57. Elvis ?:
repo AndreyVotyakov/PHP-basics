@@ -1,0 +1,6 @@
+<?php
+
+function generateAmount($amount, $value)
+{
+    return $amount ?: $value * 3;
+}
