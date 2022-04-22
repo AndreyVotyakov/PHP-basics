@@ -1,0 +1,6 @@
+<?php
+
+function isNeutralSoldier($colorOfArmor, $colorOfShield)
+{
+    return $colorOfArmor !== 'red' && $colorOfShield === 'black';
+}
