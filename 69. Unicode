@@ -1,0 +1,18 @@
+<?php
+
+function invertCase($text)
+{
+    $result = '';
+    $len = mb_strlen($text);
+
+    for ($i = 0; $i <= $len; $i++) {
+        $curChar = mb_substr($text, $i, 1);
+        if ($curChar === mb_strtoupper($curChar)) {
+            $curChar = mb_strtolower($curChar);
+        } else {
+            $curChar = mb_strtoupper($curChar);
+        }
+        $result .= $curChar;
+    }
+
+    return $result;
